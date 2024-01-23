@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .user-list {
+          list-style-type: none;
+          padding: 0;
+        }
+    
+        .user-item {
+          margin-bottom: 10px;
+        }
+    
+        .edit-input {
+          width: 200px;
+        }
+        .mau-xanh {
+          background-color: green;
+          color:black;
+        }
+      </style>
+</head>
+<body>
+    <h1>Chỉnh sửa danh sách tên người dùng</h1>
+  <label for="inputUser">Tên người dùng:</label>
+  <input type="text" id="inputUser" class="edit-input">
+  <button id="editItem">Edit Item</button>
+
+  <h2>Danh sách tên người dùng:</h2>
+  <ul id="userList" class="user-list">
+    <li class="user-item">
+      <span class="user-name">Nguyễn Văn A</span>
+      <button class="edit-user">Edit</button>
+    </li>
+    <li class="user-item">
+      <span class="user-name">Vũ Thị B</span>
+      <button class="edit-user">Edit</button>
+    </li>
+    <li class="user-item">
+      <span class="user-name">Nguyễn Minh C</span>
+      <button class="edit-user">Edit</button>
+    </li>
+  </ul>
+</body>
+<script src="./bai9.js"></script>
+</html>
